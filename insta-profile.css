@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 223, 223);
+    margin-left:0px;
+    margin-right:0px;
+    height: 76px;
+    background-color: white;
+}
+
+.nav-right{
+    display: flex;
+    width:142px;
+    justify-content: space-around;
+    align-items: center;
+    height: 45.2px;
+}
+
+.nav-center
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 30px;
+    border-radius: 5px;
+    border : 1px solid rgb(224, 224, 224);
+    background-color: #fafafa;
+    color: #999;
+    font-size: 14px;
+}
+
+.far{
+    font-size : 27px;
+}
+
+
+.profilebox, .highlights{
+    margin: 0 auto;
+}
+
+.profilebox {
+    width: 70%;
+    border: 0;
+    display: flex;
+}
+
+.profile {
+    width: 350px;
+}
+
+.profileimg img{
+    border-radius: 50%;
+    margin: 60px;
+    border: 1px solid #fafafa;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profiledetail {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+}
+
+.profiledetail div{
+    display: inline;
+}
+
+.profiledetail .button{
+    border: 1px solid #999999;
+    border-radius: 10%;
+    background: none;
+    padding: 5px 10px;
+}
+
+.highlights {
+    display: flex;
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid #999999;
+}
+.circle{
+    border-radius: 50%;
+    border: 1px solid #999999;
+}
+
+.highlight {
+    margin: 20px;
+}
+
+.highlight .highimg{
+    width: 104px;
+    height: 104px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.highcaption {
+    text-align: center;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 10px;
+    justify-content: space-evenly;
+}

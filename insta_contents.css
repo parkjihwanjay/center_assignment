@@ -1,0 +1,25 @@
+
+.contents{
+    width:50%;
+    margin: 0 auto;
+    margin-top : 50px;
+}
+
+.self{
+    text-align: center;
+    font-weight: bold;
+}
+
+.center{
+    margin-top : 50px;
+    text-align: center;
+}
+
+.promise{
+    margin-top : 20px;
+    font-weight: bold;
+}
+
+.card_center{
+    text-align: center;
+}

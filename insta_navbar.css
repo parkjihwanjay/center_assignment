@@ -1,0 +1,36 @@
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 223, 223);
+    margin-left:0px;
+    margin-right:0px;
+    height: 76px;
+}
+
+.nav-right{
+    display: flex;
+    width:142px;
+    justify-content: space-around;
+    align-items: center;
+    height: 45.2px;
+}
+
+.nav-center
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 30px;
+    border-radius: 5px;
+    border : 1px solid rgb(224, 224, 224);
+    background-color: #fafafa;
+    color: #999;
+    font-size: 14px;
+}
+
+.far{
+    font-size : 27px;
+}
+
